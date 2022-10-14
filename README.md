@@ -1,9 +1,9 @@
-# CLT_Benford-sLaw
+# CLT - Independence and Benford's Law
 **Intro :**
 
 In this ReadMe, we are going to talk about two topics : one is a requirement for classical CLT - independence, the other is a very interesting application of CLT - benford’s law
 
-**Independence**
+# Independence
 
 One of the assumptions of traditional CLT is that the sample needs to be identical and independent. And we are going to focus on the independence criteria. The definition of independent is that two events are independent if the occurrence of one event does not affect the chances of the occurrence of the other event. 
 
@@ -49,7 +49,7 @@ It basically means that for each unique value of A (or B), the corresponding val
 It’s important to remember that what we are talking about here is theoretical independence and not statistical independence. Statistical independence is much weaker and requires just the correlation to be 0.
 
 
-**Benford’s Law**
+# Benford’s Law
 
 Now let’s look into an interesting application of Benford’s law.
 
@@ -62,7 +62,8 @@ More precisely, the probability of each occurrence having the leading number ‘
 **Pr(d) = log(1+ 10/d)**
 
 
-**Benford’s Law compliance:** 
+## Benford’s Law compliance:
+
 Benford’s law is prominent when the data has several orders of magnitude, like exponential distribution. It needs the distribution to be widely spread. 
 
 Examples that follow Benford’s Law:
@@ -77,11 +78,9 @@ Examples that don’t follow Benford’s Law:
 
 1)Lists of local telephone numbers 
 
-2)Distributions that do not span several orders of magnitude will not follow Benford's law
+2)Distributions that do not span several orders of magnitude will not follow Benford's law. Ex: Height
 
-Ex: Height
-
-**Leading digit of heights of the 58 tallest structures in the world **
+**Leading digit of heights of the 58 tallest structures in the world (meters and feet)**<br>
 
 <img width="474" alt="image" src="https://user-images.githubusercontent.com/112677445/195774773-8156ec63-ffb6-435b-89d2-38ad04d82371.png">
 
@@ -89,7 +88,7 @@ Ex: Height
 
 <img width="354" alt="image" src="https://user-images.githubusercontent.com/112677445/195774849-aba8c479-fe7a-4fe1-8a07-0bde003288e3.png">
 
-**How is CLT related to Benford’s Law? **
+## How is CLT related to Benford’s Law?
 
 Central limit theorem says that multiplying more and more random variables will create a log-normal distribution with larger and larger variance, so eventually it covers many orders of magnitude.
 
@@ -97,7 +96,7 @@ Log-normal distributions are positively skewed with long right tails due to low 
 
 <img width="492" alt="image" src="https://user-images.githubusercontent.com/112677445/195774915-08e4acdf-c3a4-4231-a2d8-d17fba3badcf.png">
 
-**Applications of Benford’s Law:**
+## Applications of Benford’s Law:
 
 1) Accounting fraud detection: Based on a plausible assumption that people who fabricate figures tend to distribute their digits fairly uniformly, a simple comparison of first-digit frequency distribution from the data with the expected distribution according to Benford's law ought to show up any anomalous results.
 2) Criminal trials
