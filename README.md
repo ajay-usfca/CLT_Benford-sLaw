@@ -1,5 +1,5 @@
 # CLT - Independence and Benford's Law
-**Intro :**
+# Intro
 
 In this ReadMe, we are going to talk about two topics : one is a requirement for classical CLT - independence, the other is a very interesting application of CLT - benford’s law
 
