@@ -1,9 +1,9 @@
 # CLT_Benford-sLaw
-Intro : 
+**Intro : **
 
 In this ReadMe, we are going to talk about two topics : one is a requirement for classical CLT - independence, the other is a very interesting application of CLT - benford’s law
 
-Independence 
+**Independence **
 
 One of the assumptions of traditional CLT is that the sample needs to be identical and independent. And we are going to focus on the independence criteria. The definition of independent is that two events are independent if the occurrence of one event does not affect the chances of the occurrence of the other event. 
 
@@ -11,7 +11,7 @@ For example, usually pulling cards from a stack is random, but if we can see the
  
 One thing I want to mention is that don’t go too far from independent variables. Because the definition is very weak, the occurrence of one event does not affect the chances of other event, basically that is saying that we need to judge independence based on our intuition. Some universal thing, some thing that we assume that not usually happen, might happen, and it will affect our independence. if a plane crashed, the next plane might also crashed because there might be bad weather in the air. So be careful about independence.
 
-Mathematical Interpretation
+**Mathematical Interpretation of Independence**
 
 But, what is the mathematical interpretation of Independence. Especially, how can we tell if two given random variables (or any number of random variables) are independent or not. 
 
@@ -49,7 +49,7 @@ It basically means that for each unique value of A (or B), the corresponding val
 It’s important to remember that what we are talking about here is theoretical independence and not statistical independence. Statistical independence is much weaker and requires just the correlation to be 0.
 
 
-Benford’s Law 
+**Benford’s Law **
 
 Now let’s look into an interesting application of Benford’s law.
 
@@ -59,10 +59,11 @@ Benford's law is an observation about the leading digits of the numbers found in
 
 More precisely, the probability of each occurrence having the leading number ‘d’ is
 
-Pr(d) = log(1+ 10/d)
+**Pr(d) = log(1+ 10/d)**
 
 
-Benford’s Law compliance: Benford’s law is prominent when the data has several orders of magnitude, like exponential distribution. It needs the distribution to be widely spread. 
+**Benford’s Law compliance:** 
+Benford’s law is prominent when the data has several orders of magnitude, like exponential distribution. It needs the distribution to be widely spread. 
 
 Examples that follow Benford’s Law:
 Fibonacci series
@@ -74,15 +75,15 @@ Lists of local telephone numbers
 Distributions that do not span several orders of magnitude will not follow Benford's law
 	Ex: Height
 
-Leading digit of heights of the 58 tallest structures in the world 
+**Leading digit of heights of the 58 tallest structures in the world **
 
 <img width="474" alt="image" src="https://user-images.githubusercontent.com/112677445/195774773-8156ec63-ffb6-435b-89d2-38ad04d82371.png">
 
-Leading digit of 1st 100 elements of Fibonacci Series
+**Leading digit of 1st 100 elements of Fibonacci Series**
 
 <img width="354" alt="image" src="https://user-images.githubusercontent.com/112677445/195774849-aba8c479-fe7a-4fe1-8a07-0bde003288e3.png">
 
-How is CLT related to Benford’s Law? 
+**How is CLT related to Benford’s Law? **
 
 Central limit theorem says that multiplying more and more random variables will create a log-normal distribution with larger and larger variance, so eventually it covers many orders of magnitude.
 
@@ -90,7 +91,7 @@ Log-normal distributions are positively skewed with long right tails due to low 
 
 <img width="492" alt="image" src="https://user-images.githubusercontent.com/112677445/195774915-08e4acdf-c3a4-4231-a2d8-d17fba3badcf.png">
 
-Applications of Benford’s Law:
+**Applications of Benford’s Law:**
 
 1) Accounting fraud detection: Based on a plausible assumption that people who fabricate figures tend to distribute their digits fairly uniformly, a simple comparison of first-digit frequency distribution from the data with the expected distribution according to Benford's law ought to show up any anomalous results.
 2) Criminal trials
