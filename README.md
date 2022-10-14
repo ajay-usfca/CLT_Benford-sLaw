@@ -38,7 +38,7 @@ Now, let’s try to look at what a support set is. Support set for a random vari
 
 Coming back to our example, support set in our case for both A and B would be {1,2}. But we need the support set of their joint PDF, i.e what are the possible values of A for each value of B or vice versa. We can see from the table that when A is equal to 1, B can have values of 1 or 2, the same is the case when A=2. If we were to plot that on a graph, it would look like below: 
 
-<img width="365" alt="image" src="https://user-images.githubusercontent.com/112677445/195774614-2bd78c51-6cf0-4cd9-89df-f1ba3a8b57aa.png">
+<img width="480" alt="image" src="https://user-images.githubusercontent.com/109224557/195778439-e815d096-daca-4406-baf4-13cca179bfb6.png">
 
 Clearly, the green dots which represent the support set of Joint PDF of A and B form a rectangle, which in simple english can be described as for every value of A, all values of B should be possible. 
 
