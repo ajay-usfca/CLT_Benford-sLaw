@@ -18,8 +18,8 @@ But, what is the mathematical interpretation of Independence. Especially, how ca
 Just by knowing the individual distributions of the random variable, we cannot. We need to know their joint pdf to tell if they are independent or not. 
 
 More specifically, two random variables or any number of random variables are independent if:
-Their Joint PDF is a product of the marginal PDF’s 
-The support set of the Joint PDF must be defined on a multi-dimensional rectangle 
+1. Their Joint PDF is a product of the marginal PDF’s 
+2. The support set of the Joint PDF must be defined on a multi-dimensional rectangle 
 
 But what does it mean for the joint PDF to be a product of the marginal PDFs or for the support set to be a “rectangle”. Let’s use a simple dataset to illustrate this. 
 
