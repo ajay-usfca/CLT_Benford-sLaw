@@ -51,7 +51,7 @@ It’s important to remember that what we are talking about here is theoretical 
 
 # Benford’s Law
 
-Now let’s look into an interesting application of Benford’s law.
+Now let’s look into an interesting application of CLT - Benford’s law.
 
 Benford's law is an observation about the leading digits of the numbers found in real-world data sets. It states that the leading digit being 1 is more frequent than 2 and 2 more than 3 and so on.
 
