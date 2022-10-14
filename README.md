@@ -1,9 +1,9 @@
 # CLT_Benford-sLaw
-**Intro : **
+**Intro :**
 
 In this ReadMe, we are going to talk about two topics : one is a requirement for classical CLT - independence, the other is a very interesting application of CLT - benford’s law
 
-**Independence **
+**Independence**
 
 One of the assumptions of traditional CLT is that the sample needs to be identical and independent. And we are going to focus on the independence criteria. The definition of independent is that two events are independent if the occurrence of one event does not affect the chances of the occurrence of the other event. 
 
@@ -49,7 +49,7 @@ It basically means that for each unique value of A (or B), the corresponding val
 It’s important to remember that what we are talking about here is theoretical independence and not statistical independence. Statistical independence is much weaker and requires just the correlation to be 0.
 
 
-**Benford’s Law **
+**Benford’s Law**
 
 Now let’s look into an interesting application of Benford’s law.
 
