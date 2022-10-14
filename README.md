@@ -66,14 +66,20 @@ More precisely, the probability of each occurrence having the leading number ‘
 Benford’s law is prominent when the data has several orders of magnitude, like exponential distribution. It needs the distribution to be widely spread. 
 
 Examples that follow Benford’s Law:
-Fibonacci series
-Factorials
-Powers of two
+
+1)Fibonacci series
+
+2)Factorials
+
+3)Powers of two
 
 Examples that don’t follow Benford’s Law:
-Lists of local telephone numbers 
-Distributions that do not span several orders of magnitude will not follow Benford's law
-	Ex: Height
+
+1)Lists of local telephone numbers 
+
+2)Distributions that do not span several orders of magnitude will not follow Benford's law
+
+Ex: Height
 
 **Leading digit of heights of the 58 tallest structures in the world **
 
