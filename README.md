@@ -11,7 +11,7 @@ For example, usually pulling cards from a stack is random, but if we can see the
  
 One thing I want to mention is that don’t go too far from independent variables. Because the definition is very weak, the occurrence of one event does not affect the chances of other event, basically that is saying that we need to judge independence based on our intuition. Some universal thing, some thing that we assume that not usually happen, might happen, and it will affect our independence. if a plane crashed, the next plane might also crashed because there might be bad weather in the air. So be careful about independence.
 
-**Mathematical Interpretation of Independence**
+**Mathematical Interpretation of Independence:**
 
 But, what is the mathematical interpretation of Independence. Especially, how can we tell if two given random variables (or any number of random variables) are independent or not. 
 
