@@ -96,5 +96,3 @@ Applications of Benford’s Law:
 2) Criminal trials
 3) Election data
 
-
-<img width="366" alt="image" src="https://user-images.githubusercontent.com/112677445/195774528-f693b70e-b458-4274-bec6-a0c214f0d5b8.png">
